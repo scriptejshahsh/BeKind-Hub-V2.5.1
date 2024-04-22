@@ -1,0 +1,135 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "BeKind Hub ", HidePremium = false, IntroText = "BeKind Hub", SaveConfig = true, ConfigFolder = "BeKindConfig"})
+
+local UltimateDriving = Window:MakeTab({
+    Name = "Ultimate Driving",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local DealershipTycoon = Window:MakeTab({
+    Name = "Car Dealership Tycoon",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local VehicleSimulator = Window:MakeTab({
+    Name = "Vehicle Simulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local DrivingEmpire = Window:MakeTab({
+    Name = "Driving Empire",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local DriveWorld = Window:MakeTab({
+    Name = "Drive World",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local VehicleLegends = Window:MakeTab({
+    Name = "Vehicle Legends",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Arsenal = Window:MakeTab({
+    Name = "Arsenal",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Mm2 = Window:MakeTab({
+    Name = "Mm2",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Bladeball = Window:MakeTab({
+    Name = "Bladeball",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+local Dahood = Window:MakeTab({
+    Name = "Dahood",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
+Dahood:AddButton({
+    Name = "SwagMode",
+    Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+      end
+})
+
+VehicleLegends:AddButton({
+    Name = "Vehicle Legends Script",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Vehicle%20legends"))()
+      end
+})
+
+DriveWorld:AddButton({
+    Name = "Drive World Script",
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/drive%20world"))()
+      end
+})
+
+DrivingEmpire:AddButton({
+    Name = "Driving Empire Script",
+    Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/cool83birdcarfly02six/Lightux/main/README.md'))()
+      end
+})
+
+VehicleSimulator:AddButton({
+    Name = "Soon",
+    Callback = function()
+          -- Replace 'soon' with the actual script URL when available
+          print("Script will be added soon.")
+      end
+})
+
+DealershipTycoon:AddButton({
+    Name = "Dealership Tycoon Autofarm Script",
+    Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/houjk2/Boosthub/main/boostexecutables/Car%20Dealership.lua'))()
+      end
+})
+
+UltimateDriving:AddButton({
+    Name = "Ultimate Driving Script",
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/UltimateDriving.lua"))()
+      end
+})
+
+Mm2:AddButton({
+    Name = "Mm2 Scripts Pc/Mobile",
+    Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+      end
+})
+
+Arsenal:AddButton({
+    Name = "Arsenal Script Pc/Mobile",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoArsenal"))()
+      end
+})
+
+Bladeball:AddButton({
+    Name = "Blade Ball Script",
+    Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/-beta-/main/AutoParry.lua"))()
+      end
+})
+
+OrionLib:Init()
