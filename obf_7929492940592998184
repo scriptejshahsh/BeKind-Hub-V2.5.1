@@ -125,21 +125,21 @@ Mm2:AddButton({
 })
 
 Jailbreak:AddButton({
-    Name = "Project Auto AutoFarm V4 Free Appleware unsupported",
+    Name = ".gg/ProjectAuto AutoFarm V4 Free Appleware unsupported",
     Callback = function()
          loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV4'))()
       end
 })
 
 Jailbreak:AddButton({
-    Name = "Project Auto AutoFarm V5 Beta Free Appleware unsupported",
+    Name = ".gg/ProjectAuto AutoFarm V5 Beta Free Appleware unsupported",
     Callback = function()
          loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
       end
 })
 
 Jailbreak:AddButton({
-    Name = "Project Auto AutoArrest V3 Beta Free Appleware unsupported",
+    Name = ".gg/ProjectAuto AutoArrest V3 Beta Free Appleware unsupported",
     Callback = function()
          loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoArrestV3'))()
       end
