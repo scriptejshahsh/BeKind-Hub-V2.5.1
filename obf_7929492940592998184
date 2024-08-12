@@ -11,6 +11,12 @@ local DealershipTycoon = Window:MakeTab({
     Name = "Car Dealership Tycoon",
     Icon = "rbxassetid://4483345998",
     PremiumOnly = false
+
+})
+local Jailbreak = Window:MakeTab({
+    Name = "Jailbreak",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
 })
 
 local VehicleSimulator = Window:MakeTab({
@@ -115,6 +121,20 @@ Mm2:AddButton({
     Name = "Mm2 Scripts Pc/Mobile",
     Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+      end
+})
+
+Jailbreak:AddButton({
+    Name = "JB Script AutoFarm V4 Free Appleware unsupported",
+    Callback = function()
+         loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV4'))()
+      end
+})
+
+Jailbreak:AddButton({
+    Name = "JB Script AutoFarm V5 Beta Free Appleware unsupported",
+    Callback = function()
+         loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV4'))()
       end
 })
 
