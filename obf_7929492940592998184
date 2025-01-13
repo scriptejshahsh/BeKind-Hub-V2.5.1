@@ -159,9 +159,17 @@ Arsenal:AddButton({
 })
 
 Fisch:AddButton({
-    Name = "Fisch script (unchecked)",
+    Name = "Fisch script (unchecked)no key",
     Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/drive%20world"))()
+         loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c019f214a19894b50f0b8e817b70d25f.lua"))()
+      end
+})
+
+Fisch:AddButton({
+    Name = "Fisch script (checked)key",
+    Callback = function()
+         script_key="PASTE_KEY_HERE";
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
       end
 })
 
