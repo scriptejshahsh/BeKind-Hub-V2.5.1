@@ -73,6 +73,12 @@ local Bladeball = Window:MakeTab({
     PremiumOnly = false
 })
 
+local PogoSimulator= Window:MakeTab({
+    Name = "PogoSimulator",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
 local Dahood = Window:MakeTab({
     Name = "Dahood",
     Icon = "rbxassetid://4483345998",
@@ -100,6 +106,17 @@ DriveWorld:AddButton({
       end
 })
 
+PogoSimulator:AddButton({
+    Name = "Pogo Simulator script inf coin",
+    Callback = function()
+          local args = {
+    [1] = 3000000000000000000,
+    [2] = workspace:WaitForChild("earth"):WaitForChild("collectables"):WaitForChild("coin")
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("coinCollect"):FireServer(unpack(args))
+      end
+})
 DrivingEmpire:AddButton({
     Name = "Driving Empire Script",
     Callback = function()
