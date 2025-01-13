@@ -13,6 +13,12 @@ local Fisch = Window:MakeTab({
     PremiumOnly = false
 })
 
+local SlapBattles = Window:MakeTab({
+    Name = "Slap Battles",
+    Icon = "rbxassetid://4483345998",
+    PremiumOnly = false
+})
+
 local DealershipTycoon = Window:MakeTab({
     Name = "Car Dealership Tycoon",
     Icon = "rbxassetid://4483345998",
@@ -170,6 +176,13 @@ Fisch:AddButton({
     Callback = function()
          script_key="PASTE_KEY_HERE";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Native-lab/Native/main/loader.lua"))()
+      end
+})
+
+SlapBattles:AddButton({
+    Name = "Slap Battles script",
+    Callback = function()         
+loadstring(game:HttpGet("https://raw.githubusercontent.com/decryp1/Herkle-Hub/refs/heads/main/game%20redirect"))()
       end
 })
 
